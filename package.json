@@ -1,0 +1,28 @@
+{
+  "name": "yarn",
+  "version": "0.0.1",
+  "description": "Generate a JSON representation of a Twine flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Lazzeri <marco@yerdle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "libxmljs": "^0.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yerdle/yarn"
+  },
+  "keywords": [
+    "twine",
+    "yarn",
+    "json",
+    "export",
+    "generate"
+  ],
+  "bugs": {
+    "url": "https://github.com/yerdle/yarn/issues"
+  }
+}
