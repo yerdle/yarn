@@ -6,6 +6,7 @@ Generate a JSON representation of Twine flows
 {
   "screen1": {
     "name": "Start",
+    "text": "Blah blah blah",
     "intents": {
       "Yes!": "screen2",
       "No": "screen3"
@@ -13,12 +14,14 @@ Generate a JSON representation of Twine flows
   },
   "screen2": {
     "name": "Introduction",
+    "text": "Bloh bloh bloh",
     "intents": {
       "Maybe": "screen4",
       "No": "screen3"
     }
   },
   "screen3": {
+    "text": "Bluh bluh bluh",
     "name": "Sorry"
   }
 }
@@ -29,7 +32,7 @@ Generate a JSON representation of Twine flows
 ### From CLI
 
 ```sh
-node index.js twine.html > export.json
+node index.js twine.html [--drop-text] [--normalize] > export.json
 ```
 
 ### From code
