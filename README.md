@@ -32,7 +32,7 @@ Generate a JSON representation of Twine flows
 ### From CLI
 
 ```sh
-node index.js twine.html [--drop-text] [--normalize] > export.json
+node index.js twine.html [--drop-text] [--normalize] [--lower-intents] > export.json
 ```
 
 ### From code
