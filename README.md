@@ -22,7 +22,19 @@ Generate a JSON representation of Twine flows
   },
   "screen3": {
     "text": "Bluh bluh bluh",
-    "name": "Sorry"
+    "name": "Sorry",
+    "actions" : [
+        {
+          "actionSequenceType": "pre",
+           "actionType" : "saveItem",
+           "values" : ["item_name", "photos"]
+        },
+        {
+          "actionSequenceType": "post",
+           "actionType" : "notify"
+        }
+      ]
+    }
   }
 }
 ```
