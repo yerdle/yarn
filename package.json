@@ -2,7 +2,7 @@
   "name": "yarn",
   "version": "0.0.1",
   "description": "Generate a JSON representation of a Twine flow",
-  "main": "index.js",
+  "main": "lib/yarn.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
